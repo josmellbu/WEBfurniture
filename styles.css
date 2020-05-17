@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #F8F8F8;
+}
+
+header{
+	position: relative;
+	border: solid 1px pink;
+	width: 100%;
+	height: auto;
+}
+
+nav{
+	border: solid 1px green;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+main{
+	width: 100%;
+	height: auto;
+}
+
+.encabezado{
+	border: solid 1px red;
+	padding: 10px;
+}
+
+.menu1{
+	align-items: center;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	border: solid 1px blue;
+}
+
+.menu1 div{
+	align-items: center;
+	border: solid 1px black;
+	flex: 20%;
+}
+
+.submenu{
+	position: relative;
+	padding: 5px;
+	display: flex;
+}
+
+.submenu div{
+	float: right;
+	flex: 25%;
+}
+
+.menu1 img{
+	width: 100%;
+	max-width: 150px;
+}
+
+.items{
+	text-align: center;
+}
+
+.items li{
+	margin-left: 4%;
+	margin-right: 4%;
+	display: inline-block;
+}
