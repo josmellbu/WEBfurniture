@@ -5,29 +5,34 @@
 
 body{
 	background-color: #F8F8F8;
+	color: #303030;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header{
 	position: relative;
-	border: solid 1px pink;
 	width: 100%;
 	height: auto;
 }
 
 nav{
-	border: solid 1px green;
 	position: relative;
 	width: 100%;
 	height: auto;
 }
 
 main{
+	position: relative;
 	width: 100%;
-	height: auto;
+	height: 1020px;
+}
+
+a{
+	text-decoration: none;
+	color: #303030;
 }
 
 .encabezado{
-	border: solid 1px red;
 	padding: 10px;
 }
 
@@ -37,12 +42,10 @@ main{
 	padding: 10px;
 	text-align: center;
 	display: flex;
-	border: solid 1px blue;
 }
 
 .menu1 div{
 	align-items: center;
-	border: solid 1px black;
 	flex: 20%;
 }
 
@@ -70,4 +73,25 @@ main{
 	margin-left: 4%;
 	margin-right: 4%;
 	display: inline-block;
+}
+
+.sec1{
+	border: solid 1px black;
+	background-image: url(img/sec1.jpg);
+	position: relative;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.destacado{
+	position: absolute;
+	border: solid 1px white;
+	left: 250px;
+	top: 250px;
+	width: 400px;
+	height: 500px;
+}
+
+.text{
+	padding: 20px;
 }
